@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/cs/style.css">
+    <title>Form SignUp</title>
+</head>
+<body>
+    <main class="container">
+        <div class="img-form">
+            <img src="assets/img/Login.svg" alt="Imagem de um personagem fazendo login" >
+        </div>
+        <section class="form">
+            <form action="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-btn">
+                        <button class="btn"><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                    <div class="signup-input">
+                        <div class="signup-box">
+                            <label for="first-name">Primeiro nome*</label>
+                            <input type="text" id="first-name" name="first-name" required>
+
+                        <div class="signup-box">
+                            <label for="last-name">Sobrenome*</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+
+                        <div class="signup-box">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="signup-box">
+                            <label for="number">Celular*</label>
+                            <input type="tel" id="number" name="number" required>
+                        </div>
+
+                        <div class="signup-box">
+                            <label for="password">Senha*</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="signup-box">
+                            <label for="confirm-password">Confirmar sua Senha*</label>
+                            <input type="confirm-password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
