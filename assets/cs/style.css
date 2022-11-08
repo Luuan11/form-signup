@@ -146,3 +146,40 @@ body {
 .send-btn button:hover{
     background-color: rgb(243, 134, 166);
 }
+
+@media screen and (max-width: 1330px) { 
+    .container {
+        width: 50%;
+    }
+
+    .form-header{
+        margin-bottom: 1.3rem;
+    }
+
+    .img-form{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .signup-box input{
+        margin: 0.3rem 0;
+        padding: 0.2rem .4rem;
+    }
+
+    .send-btn button{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 874px) {
+    .container{
+        width: 80%;
+    }
+
+    .form{
+        width: 100%;
+    }
+}
