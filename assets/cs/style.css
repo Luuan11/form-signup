@@ -174,12 +174,23 @@ body {
     }
 }
 
-@media screen and (max-width: 874px) {
+@media screen and (max-width: 874px){
     .container{
         width: 80%;
     }
+}
 
-    .form{
-        width: 100%;
+@media screen and (max-width: 545px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+
+    .form-header{
+        margin-bottom: 1rem;
+    }
+
+    .send-btn button{
+        margin-top: 0.8rem;
     }
 }
