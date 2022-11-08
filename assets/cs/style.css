@@ -117,8 +117,12 @@ body {
     border-radius: 8px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
+    transition: all .3s;
 }
 
+.signup-box input:hover{
+    background-color: rgba(207, 209, 214, 0.76);
+}
 
 .signup-box input:focus-visible {
     outline: 1px solid #f86bad;
@@ -137,7 +141,6 @@ body {
     background-color: #f46b95;
     transition: all .3s;
 }
-
 
 .send-btn button:focus-visible {
     outline: 1px solid #f86bad;
