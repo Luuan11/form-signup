@@ -14,7 +14,8 @@ esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-
+- Responsive
+ 
 ## Clone
 
     - Clonar repositorio 
