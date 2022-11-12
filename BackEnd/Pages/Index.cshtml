@@ -1,0 +1,70 @@
+﻿@page
+@using BackEnd.Pages.Models;
+@model User;
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<section class="form">
+    <div class="form-header">
+        <div class="title">
+            <h1>Cadastre-se</h1>
+        </div>
+        <div class="send-btn">
+            <button>Entrar</button>
+        </div>
+    </div>
+    @using (Html.BeginForm("AddOrEdit", "UserController", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true)
+        <div class="signup-input">
+            <div class="signup-box">
+                @Html.LabelFor(model => model.FirstName)
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { placeholder = "Digite seu primeiro nome", id = "first-name" }})
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.FirstName)</span>
+            </div>
+            <div class="signup-box">
+                @Html.LabelFor(model => model.LastName)
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { placeholder = "Digite seu sobrenome", id = "last-name" }})
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.LastName)</span>
+            </div>
+            <div class="signup-box">
+                @Html.LabelFor(model => model.Email)
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = "email@email.com", id = "email" }})
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Email)</span>
+            </div>
+
+            <div class="signup-box">
+                @Html.LabelFor(model => model.PhoneNumber)
+                @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { placeholder = "(xx) xxxxx-xxxx", id = "number" }})
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.PhoneNumber)</span>
+            </div>
+            <div class="signup-box">
+                @Html.LabelFor(model => model.Pwd)
+                @Html.EditorFor(model => model.Pwd, new { htmlAttributes = new { placeholder = "********", id = "password" }})
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Pwd)</span>
+            </div>
+            <div class="signup-box">
+                @Html.LabelFor(model => model.ConfirmPwd)
+                @Html.EditorFor(model => model.ConfirmPwd, new { htmlAttributes = new { placeholder = "********", id = "confirm-password" }})
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.ConfirmPwd)</span>
+            </div>
+        </div>
+
+        <label>@ViewBag.SucessMessage</label>
+
+        <div class="send-btn">
+            <button type="submit">Enviar</button>
+        </div>
+    }
+    @*</form>*@
+
+</section>
+
+
+@section Scripts 
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
