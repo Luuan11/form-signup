@@ -23,4 +23,4 @@ Formulário desenvolvido afim de praticar criações de formulário com HTML e C
     $ git clone https://github.com/Luuan11/form-signup.git 
 
 ---
-Made with 💜 by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/).
+Made with 💜 by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/) and [Matheus Szoke](https://github.com/MathSzoke)
