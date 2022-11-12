@@ -8,6 +8,10 @@
 ## 💬 Sobre
 Formulário desenvolvido afim de praticar criações de formulário com HTML e CSS.
 
+## 💡 Front-end:
+- HTML
+- CSS
+
 ## 💡 Back-end:
 - SQL Server
 - ASP.Net
