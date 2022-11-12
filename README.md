@@ -19,7 +19,7 @@ esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Clone
 
     - Clonar repositorio 
-    $ git clone https://github.com/Luuan11/discordpurple.git 
+    $ git clone https://github.com/Luuan11/form-signup.git 
 
 ---
 Made with 💜 by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/).
