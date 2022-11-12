@@ -8,13 +8,10 @@
 ## 💬 Sobre
 Formulário desenvolvido afim de praticar criações de formulário com HTML e CSS.
 
-### 💡 Tecnologias:
+## 💡 Back-end:
+- SQL Server
+- ASP.Net
 
-esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML
-- CSS
-- Responsive
  
 ## Clone
 
